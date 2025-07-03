@@ -1,3 +1,4 @@
+/*
 
     h1,h2,h3 {
       color: orchid;
@@ -97,3 +98,77 @@
     width: 47%
     } -->
            
+*/
+
+body {
+  background-image: url('https://res.cloudinary.com/donsephuh/image/upload/v1748341335/photo_2025-05-27_10.49.48_zb7cht.jpg');
+  background-size: cover;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header, main, footer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #B76E79; /* пыльно-розовый */
+  background-color: #E3F9E5; /* мятный */
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.content-block {
+  background-color: #FFF8F0;
+  padding: 30px;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  color: #4D3C3C;
+  text-align: center;
+  background-color: transparent;
+  margin: 0;
+  line-height: 1.6;
+}
+
+nav.nav-vertical {
+  background-color: #E3F9E5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  gap: 15px;
+  border-radius: 15px;
+}
+
+nav.nav-vertical a {
+  color: #B76E79;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: #FFF8F0;
+  transition: all 0.3s ease;
+  width: 100%;
+  text-align: center;
+}
+
+nav.nav-vertical a:hover {
+  background-color: #F0DFD8;
+  color: #4D3C3C;
+}
+
+ol {
+  padding-left: 20px;
+  color: #4D3C3C;
+}
+
+ol li a {
+  color: #B76E79;
+  text-decorat
