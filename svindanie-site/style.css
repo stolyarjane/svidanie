@@ -1,6 +1,4 @@
-/*
-
-    h1,h2,h3 {
+h1,h2,h3 {
       color: orchid;
       background-color: lime;
       font-family: Arial;
@@ -90,15 +88,17 @@
     background-color:lightyellow;
     
     }
-   <!-- #item1 { 
+    #item1 { 
     position:absolute;
     flex-shrink: 1
     left: 395px;
     top: 290px;
     width: 47%
-    } -->
+    } 
            
-*/
+/*
+
+    
 
 body {
   background-image: url('https://res.cloudinary.com/donsephuh/image/upload/v1748341335/photo_2025-05-27_10.49.48_zb7cht.jpg');
@@ -114,9 +114,9 @@ header, main, footer {
 }
 
 h1, h2, h3 {
-  color: #B76E79; /* пыльно-розовый */
-  background-color: #E3F9E5; /* мятный */
-  text-align: center;
+  color: #B76E79; 
+background-color: #E3F9E5; 
+text-align: center;
   padding: 15px;
   border-radius: 10px;
 }
@@ -172,3 +172,6 @@ ol {
 ol li a {
   color: #B76E79;
   text-decorat
+*/
+
+    
